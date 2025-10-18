@@ -64,10 +64,24 @@ Students often face doubts that go unanswered, reducing engagement and productiv
 ## 💬 Special Feature – “Ask Guru” (AI Chatbot)
 
 > 🤖 **Ask Guru** is an AI-powered subject-wise assistant built with **Python Flask** and **Google Gemini API**.
+> 🧭 **Skill Path Generator**
+The Skill Path Generator is an AI-powered module recently integrated into SparkMinds.
+It helps learners create personalized learning paths based on their current skills, goals, and course performance.
+✨ **Key Features**
+-🚀 AI-Powered Recommendations: Suggests learning tracks tailored to each student’s goals.
+-📊 Skill Mapping: Analyzes user progress and skill gaps using performance data.
+-🧩 Dynamic Path Generation: Updates learning paths in real-time as users complete modules.
+-🧠 Integration with LMS: Fully connected with the SparkMinds dashboard, allowing students and  teachers to visualize skill growth.
+
 
 ### 🔍 Description:
 “Ask Guru” helps students clarify subject-related doubts instantly.  
 It provides intelligent, context-aware answers to academic questions, making learning interactive and self-driven.
+🔗 **How It Works**
+-Students input their interests or learning goals.
+-The AI engine analyzes their completed modules and quiz results.
+-It generates a custom skill roadmap with recommended next steps and resources.
+-The path updates automatically as the student progresses.
 
 ### ⚙️ Tech Details:
 - Backend powered by **Flask** microservice.  
@@ -108,7 +122,9 @@ Students get **personalized tutoring**, **concept explanations**, and **example-
 - Minimal and professional interface with **Tailwind CSS**.  
 - Role-based dashboards for teachers and students.  
 - Consistent color palette and responsive layouts.  
-- Integrated “Ask Guru” panel with chat-like interface.  
+- Integrated “Ask Guru” panel with chat-like interface.
+- 🧭 Skill Path Generator – AI-powered feature that creates personalized learning path based      on student goals and performance.
+ 
 
 ---
 
@@ -121,24 +137,26 @@ Students get **personalized tutoring**, **concept explanations**, and **example-
 👉 [https://github.com/Skeerthipriya-AIML/SparkMinds]
 
 ---
-📊 System Architecture
 SparkMinds/
 ├── backend/
-│   ├── server.js
-│   ├── routes/
-│   └── models/
+│ ├── server.js # Express server handling APIs and database logic
+│ ├── routes/ # API route definitions
+│ └── models/ # Database models (Users, Courses, etc.)
 ├── ask-guru/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── templates/
+│ ├── app.py # AI module for question answering and recommendations
+│ ├── requirements.txt # Python dependencies
+│ └── templates/ # Web templates for AI service
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.jsx
-├── package.json
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # App pages (Dashboard, Login, etc.)
+│ │ └── App.jsx # Main React entry point
+├── skill-path-generator/
+│ ├── index.js # AI logic for personalized skill recommendations
+│ ├── utils/ # Helper functions for path analysis
+│ └── data/ # Skill mapping and learning resources
+├── package.json # Frontend + backend dependencies
 └── README.md
-
 
 
 ## ⚙️ Installation & Setup (For Local Testing)
