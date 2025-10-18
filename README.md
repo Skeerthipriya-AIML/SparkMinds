@@ -160,5 +160,5 @@ npm run dev
 📞 Contact
 
 **👩‍💻 Keerthi Priya**  
-📧 keerthipriya.dev@example.com  
+📧 kirtipriya032005@gmail.com  
 🌐 GitHub Profile:(https://github.com/Skeerthipriya-AIML)
