@@ -23,9 +23,9 @@ The project implements all levels — **Bronze → Platinum** — of the hackath
 **SparkMinds✨**
 
 ### 👥 Team Members
-- **Keerthi Priya** – Frontend Developer, UI/UX Designer, Integration Specialist  
-- **KR Ganesh**- Backend & Database Engineer
--**Krishna Priya**-Project Designer & python Developer
+- **Keerthi Priya** – Frontend Developer, UI/UX Designer, Integration Specialist.
+- **KR Ganesh**- Backend & Database Engineer.
+- **Krishna Priya**-Project Designer & python Developer.
 
 ---
 
