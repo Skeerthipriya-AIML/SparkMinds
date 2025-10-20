@@ -44,6 +44,7 @@ Students often face doubts that go unanswered, reducing engagement and productiv
 - ✅ **AI-powered “Ask Guru”** chatbot for real-time doubt resolution.  
 - ✅ **Responsive, modern UI** built with Tailwind CSS and React.  
 - ✅ Fully deployed, integrated backend hosted on **Replit**.
+- ✅ An **AI-powered Skill Path Generator** that analyzes a user’s current skills and career goals to create a personalized learning roadmap for achieving their target role efficiently.
 
 ---
 
@@ -64,19 +65,19 @@ Students often face doubts that go unanswered, reducing engagement and productiv
 ## 💬 Special Feature – “Ask Guru” (AI Chatbot)
 
 > 🤖 **Ask Guru** is an AI-powered subject-wise assistant built with **Python Flask** and **Google Gemini API**.
-> 🧭 **Skill Path Generator**
-The Skill Path Generator is an AI-powered module recently integrated into SparkMinds.
-It helps learners create personalized learning paths based on their current skills, goals, and course performance.
+> 🧭 **Skill Path Generator** is an AI-powered module recently integrated into SparkMinds.It helps learners create personalized learning paths based on their current skills, goals, and course performance.
 ✨ **Key Features**
 -🚀 AI-Powered Recommendations: Suggests learning tracks tailored to each student’s goals.
 -📊 Skill Mapping: Analyzes user progress and skill gaps using performance data.
 -🧩 Dynamic Path Generation: Updates learning paths in real-time as users complete modules.
 -🧠 Integration with LMS: Fully connected with the SparkMinds dashboard, allowing students and  teachers to visualize skill growth.
+-💡 Automatically generates a personalized, AI-driven learning roadmap based on the user’s current skills and desired career path.
 
 
 ### 🔍 Description:
 “Ask Guru” helps students clarify subject-related doubts instantly.  
 It provides intelligent, context-aware answers to academic questions, making learning interactive and self-driven.
+"Skill Path Generator"is an AI-based tool that identifies a user’s existing skills, analyzes their target career role, and generates a customized step-by-step learning roadmap with recommended courses, tools, and projects to help them reach their goals efficiently.
 🔗 **How It Works**
 -Students input their interests or learning goals.
 -The AI engine analyzes their completed modules and quiz results.
@@ -88,9 +89,11 @@ It provides intelligent, context-aware answers to academic questions, making lea
 - Uses **Google Gemini API** for natural language understanding and response generation.  
 - Integrated directly into the LMS dashboard under **Student Portal**.  
 - Supports multi-subject question handling (e.g., Math, Science, Programming, etc.).
+- Built using React.js for the frontend, Node.js and Express.js for the backend, MongoDB for database management, and an AI/ML engine (Python + scikit-learn/OpenAI API) for skill gap analysis and personalized roadmap generation.
 
 ### 🎯 Outcome:
 Students get **personalized tutoring**, **concept explanations**, and **example-based learning** — all within the LMS environment.
+Users receive a personalized, goal-oriented learning path that bridges their skill gaps, accelerates growth, and guides them step-by-step toward their desired career role.
 
 ---
 
@@ -114,6 +117,7 @@ Students get **personalized tutoring**, **concept explanations**, and **example-
 - ✅ Grading system with performance tracking.  
 - ✅ **Ask Guru – AI Chatbot** for doubt clarification.  
 - ✅ QuickAction section for navigation and insights.
+- ✅An advanced AI mentor mode that provides expert-level personalized guidance, evaluates user progress, and suggests next-step learning strategies and real-world projects to help users master skills like an industry professional
 
 ---
 
