@@ -132,10 +132,9 @@ Users receive a personalized, goal-oriented learning path that bridges their ski
 
 ---
 
-## 🌍 Live Demo & Repository
+## 🌍Repository
 
-🔗 **Hosted Link (Replit)**  
-👉 [https://sparkminds-team.replit.app]
+
 
 📦 **GitHub Repository**  
 👉 [https://github.com/Skeerthipriya-AIML/SparkMinds]
